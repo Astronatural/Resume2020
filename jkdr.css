@@ -2,8 +2,13 @@
 	
 p {color:red;}
 
-.lcolmn {text-justify:left;}
+.jumbotron {text-align:center;
+color:purple;}
 
-.rcolmn{
-text-justify:right;}
+.col-md-6 {
+
+#lcolmn {text-align:left;}
+
+#rcolmn{
+text-align:right;}
 
