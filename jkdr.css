@@ -5,8 +5,10 @@ p {color:black;}
 ul {text-align:left;}
 
 .jumbotron {text-align:center;
-color:purple;}
+background-color:purple;}
 
-.col-md-6 {
+.col-md-6 { {text-align:center;
+background-color:purple;}
+
 
 
