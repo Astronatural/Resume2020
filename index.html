@@ -65,16 +65,20 @@ font-family:Montserrat;
 
 <title>JDK resume</title>
 	
-	
-
-<input type="image" img id=me src="me.png" alt=Pic of me! onclick="<embed src="resint.mp3" 
-       align="baseline" border="0" width="145" 
-       height="60" autostart="false" loop="false">"/>
-	
-	<audio control>
+	<audio id="resint.mp3" control>
   <source src="resint.mp3" type="mp3">  
   <source src="resint.mp3" type="audio/mp3">  
-</audio>
+</audio>	
+
+<button type="image" img id=me src="me.png" alt=Pic of me! onclick="playAudio()"</button>
+	
+<script>
+var x = document.getElementById("resint.mp3"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+	</script>
 
 
 	
